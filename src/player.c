@@ -29,7 +29,7 @@ void player(quizz_t *quizz, char **env)
     size_t len;
     int score = 0;
     int u = 0;
-    while (u < quizz->question[0].num_of_question){
+    while (1){
         printf("%s\n",quizz->question[u].name_of_question);
         for (int i = 0; i < 4; i++){
             printf("%i. %s\n",i + 1, quizz->question[u].answer[i]);
@@ -40,11 +40,10 @@ void player(quizz_t *quizz, char **env)
             score += 1;
         }
         u++;
-        clear_screen(env);
+        if(u == quizz->question[0].num_of_question){
+            printf("\n\n\n ///voici votre score final : %i/%i///\n\n\n", score, quizz->question[0].num_of_question);
+            printf("score sur 20 : %.2f/20\n", (float)(1.0 *score/ quizz->question[0].num_of_question) * 20);
+            exit(0);
+        }
     }
-    free(ptr);
-    printf("\n\n\n ///voici votre score final : %i/%i///\n\n\n", score, quizz->question[0].num_of_question);
-    printf("score sur 20 : %.2f/20\n", (float)(1.0 *score/ quizz->question[0].num_of_question) * 20);
-    free_struct(quizz);
-    exit(0);
 }
