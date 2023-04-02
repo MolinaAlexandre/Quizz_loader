@@ -2,10 +2,13 @@ CFLAGS	=	-I./include
 
 SRC	=	src/main.c\
 		src/display_help.c\
+		src/player.c\
+		src/error_handling.c\
+		src/init_quizz.c\
 
 OBJ	=	$(SRC:.c=.o)
 
-NAME	=	quizz_maker
+NAME	=	quizz_loader
 
 all:	$(NAME)
 
