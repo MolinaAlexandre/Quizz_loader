@@ -46,4 +46,5 @@ void player(quizz_t *quizz, char **env)
     printf("\n\n\n ///voici votre score final : %i/%i///\n\n\n", score, quizz->question[0].num_of_question);
     printf("score sur 20 : %.2f/20\n", (float)(1.0 *score/ quizz->question[0].num_of_question) * 20);
     free_struct(quizz);
+    exit(0);
 }
