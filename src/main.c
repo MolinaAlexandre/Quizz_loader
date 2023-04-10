@@ -10,5 +10,5 @@ int main(int ac, char *av[], char **env)
     struct stat file_stat;
     quizz_t quizz;
     check_valid_file(&file_stat, av[1], &quizz);
-    player(&quizz, env);
+    player(&quizz, env);3
 }
