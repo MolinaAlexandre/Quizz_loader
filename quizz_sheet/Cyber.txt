@@ -7,7 +7,7 @@
 - [ ] The entire company database was posted to the Internet.
 - [ ] Every customer record is stolen by hackers
 
-#### Q.2 Let's talk about adversary types: we can say that Hacktivists are?:
+#### Q.2 Let's talk about adversary types, we can say that Hacktivists are?:
 
 - [ ] Motivated by greed, well funded and being tracked in increasingly efficient ways
 - [ ] Motivated by curiosity and predictable
@@ -35,7 +35,7 @@
 - [x] A vailability threats
 - [ ] Confidentiality threats
 
-#### Q.6 Let's talk about adversary types: we can say that vandals are?:
+#### Q.6 Let's talk about adversary types, we can say that vandals are?:
 
 - [x] Motivated by curiosity and predictable
 - [ ] Motivated by greed, well funded and being tracked in increasingly efficient ways
@@ -183,7 +183,7 @@
 - [x] E. Dijkstra
 - [ ] Alan Turing
 
-#### Q.27 Let's talk about adversary types: we can say that Nation-state actors are ?:
+#### Q.27 Let's talk about adversary types, we can say that Nation-state actors are ?:
 
 - [ ] Motivated by greed, well funded and being tracked in increasingly efficient ways
 - [x] Motivated by dominance, and being supported by world class means
@@ -211,7 +211,7 @@
 - [ ] Integrity threat
 - [x] Fraud threat
 
-#### Q.31 Let's talk about adversary types: we can say that Criminals are?:
+#### Q.31 Let's talk about adversary types, we can say that Criminals are?:
 
 - [ ] Motivated by curiosity and predictable
 - [x] Motivated by greed, well funded and being tracked in increasingly efficient ways
